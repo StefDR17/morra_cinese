@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Morra cinese</title>
+        <link rel="stylesheet" href="stile.css"/>
+        <style>
+            #carta {
+              margin: 10px;
+            }
+      
+            #carta:focus {
+              background-color: aqua;
+            }
+      
+            #forbici {
+              margin: 10px;
+            }
+      
+            #forbici:focus {
+              background-color: aqua;
+            }
+      
+            #sasso {
+              margin: 10px;
+            }
+      
+            #sasso:focus {
+              background-color: aqua;
+            }
+      
+            #conferma {
+              margin: 10px;
+            }
+          </style>
+    </head>
+    <body>
+        <h1 id="titolo">Benvenuto</h1>
+        <h2 id="gioco">Giochiamo a morra cinese!</h2>
+        <h2 id="informazioni">Fa la tua scelta: </h2>
+        <div id="carta">
+        <button id="carta" onclick="Carta()">-Carta</button>
+        </div>
+        <div id="forbici">
+        <button id="forbici" onclick="Forbici()">-Forbici</button>
+        </div>
+        <div id="sasso">
+        <button id="sasso" onclick="Sasso()">-Sasso</button>
+        </div>
+        <div id="pulsante">
+        <button id="pulsante" onclick="verdetto()">Conferma</button>
+        </div>
+        <script src="morra_cinese.js"></script>
+    </body>
+</html>
